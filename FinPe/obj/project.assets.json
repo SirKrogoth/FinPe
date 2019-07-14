@@ -15151,11 +15151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaor\\source\\repos\\FinPe2\\FinPe\\FinPe.csproj",
+      "projectUniqueName": "C:\\Users\\joaor\\Source\\Repos\\FinPe\\FinPe\\FinPe.csproj",
       "projectName": "FinPe",
-      "projectPath": "C:\\Users\\joaor\\source\\repos\\FinPe2\\FinPe\\FinPe.csproj",
+      "projectPath": "C:\\Users\\joaor\\Source\\Repos\\FinPe\\FinPe\\FinPe.csproj",
       "packagesPath": "C:\\Users\\joaor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaor\\source\\repos\\FinPe2\\FinPe\\obj\\",
+      "outputPath": "C:\\Users\\joaor\\Source\\Repos\\FinPe\\FinPe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
