@@ -1,6 +1,6 @@
 ﻿{
   "Evolve.Driver": "MySql.Data",
-  "Evolve.ConnectionString": "Server=localhost;Port:3306;Database=FindDB;Uid=root;Pwd=506829;SslMode=none;",
+  "Evolve.ConnectionString": "Server=localhost;Port:3306;Database=FindDB;Uid=root;Pwd=506829;",
   "Evolve.Locations": "db",
   "Evolve.Command": "migrate",
   "Evolve.Placeholder.table4": "table_4"
