@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="db\migrations\V1_1_1_3__Create_table_logUsuario.sql" />
+    <None Remove="db\migrations\V1_1_1_2__Create_table_logUsuario.sql" />
   </ItemGroup>
 
   <Target Name="ChangeAliasesOfStrongNameAssemblies" BeforeTargets="FindReferenceAssembliesForReferences;ResolveReferences">

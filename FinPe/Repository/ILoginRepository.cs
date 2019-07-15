@@ -9,5 +9,6 @@ namespace FinPe.Repository
     public interface ILoginRepository
     {
         Usuario BuscarPorLogin(string login);
+        void InserirLogDeAcesso(LogUsuario logUsuario);
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FinPe.Business;
+using FinPe.Data.VO;
 using FinPe.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -24,10 +25,13 @@ namespace FinPe.Controllers
         // POST: api/Login
         [HttpPost]
         [AllowAnonymous]
-        public object Post([FromBody] Login usuarioLogin)
+        public object Post([FromBody] Login usuarioLoginVO)
         {
-            if (usuarioLogin == null || _loginBusiness == null) return BadRequest();
-            return _loginBusiness.BuscarPorLogin(usuarioLogin);
+            if (usuarioLoginVO == null || _loginBusiness == null) return BadRequest();
+            
+            var objUsuarioNovo = _loginBusiness.BuscarPorLogin(usuarioLoginVO);
+
+            return objUsuarioNovo;
         }
     }
 }

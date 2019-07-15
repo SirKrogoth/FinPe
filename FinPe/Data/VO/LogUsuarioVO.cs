@@ -1,13 +1,9 @@
-﻿using FinPe.Model.Base;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace FinPe.Model
+namespace FinPe.Data.VO
 {
-    public class LogUsuario : BaseEntity
+    public class LogUsuarioVO
     {
         public int codUsuario { get; set; }
         public DateTime horarioLogin { get; set; }
