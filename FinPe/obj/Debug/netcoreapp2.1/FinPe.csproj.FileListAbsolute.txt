@@ -30,3 +30,4 @@ C:\Users\joaor\source\repos\FinPe2\FinPe\obj\Debug\netcoreapp2.1\FinPe.csprojAss
 C:\Users\joaor\Source\Repos\FinPe\FinPe\bin\Debug\netcoreapp2.1\db\migrations\V1_1_1_1__Create_table_usuario.sql
 C:\Users\joaor\Source\Repos\FinPe\FinPe\bin\Debug\netcoreapp2.1\db\migrations\V1_1_1_2__Create_table_logUsuario.sql
 C:\Users\joaor\Source\Repos\FinPe\FinPe\obj\Debug\netcoreapp2.1\FinPe.csprojAssemblyReference.cache
+C:\Users\joaor\Source\Repos\FinPe\FinPe\bin\Debug\netcoreapp2.1\db\migrations\V1_1_1_3__Create_table_usuarioLogDeAtividade.sql

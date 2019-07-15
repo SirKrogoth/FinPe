@@ -19,5 +19,6 @@ namespace FinPe.Model.Context
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Login> Login { get; set; }
         public DbSet<LogUsuario> LogUsuario { get; set; }
+        public DbSet<LogUsuarioDeAtividade> LogUsuarioDeAtividade { get; set; }
     }
 }

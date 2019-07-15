@@ -23,7 +23,8 @@ namespace FinPe.Data.Converters
                 email = origem.email,
                 login = origem.login,
                 senha = origem.senha,
-                telefone = origem.telefone
+                telefone = origem.telefone,
+                dataCadastro = origem.dataCadastro                
             };
         }
 
@@ -39,7 +40,8 @@ namespace FinPe.Data.Converters
                 email = origem.email,
                 login = origem.login,
                 senha = origem.senha,
-                telefone = origem.telefone
+                telefone = origem.telefone,
+                dataCadastro = origem.dataCadastro
             };
         }
 
